@@ -22,8 +22,3 @@ Xcode 一键导入常用代码块
 cd ll_xcode_tool
 ./clear_snippets.sh
 ```
-清除Xcode 缓存垃圾,释放磁盘存储空间:
-```
-cd ll_xcode_tool
-./clear_Temp_data.sh
-```
