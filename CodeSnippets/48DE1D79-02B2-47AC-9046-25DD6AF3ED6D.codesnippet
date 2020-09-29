@@ -3,15 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>LL ///</string>
+	<string>LL mn </string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>/**
- * &lt;#name#&gt;
- * &lt;#name#&gt;
+ * &lt;#desc#&gt;
  */</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>48DE1D79-02B2-47AC-9046-25DD6AF3ED6D</string>
@@ -20,7 +19,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>多行注释</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>/// 注释</string>
+	<string>/// 注解</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,37 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>LL RequestDelegate</string>
+	<string>LL pn</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - Network Request Delegate
-
-- (void)requestFinished:(BaseRequest *)request {
-
-}
-
-- (void)requestFailed:(BaseRequest *)request {
-
-}
-
-- (void)clearRequest {
-
-}
-</string>
+	<string>//! &lt;#desc#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F2945E28-8E0F-4E27-8840-F40C4E7E7E5D</string>
+	<string>EBF636EC-6775-4BF8-93B9-3E1E933CAC4B</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>networkRequestDelegate</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>networkRequestDelegate</string>
+	<string>//! 注解</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

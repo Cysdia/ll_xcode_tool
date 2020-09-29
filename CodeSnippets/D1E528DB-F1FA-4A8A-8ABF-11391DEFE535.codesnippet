@@ -9,35 +9,35 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string> UISegmentedControl * segment = [[UISegmentedControl alloc]initWithItems:&lt;#@[@"第一个",@"第二个"....]#&gt;] ;
-    [segment addTarget:self action:@selector(valueChange:) forControlEvents:UIControlEventValueChanged];
-    segment.frame = CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
-    //改变选中状态
-    segment.momentary = YES ;
-    [&lt;#someView#&gt; addSubview:segment];
-    
-    
-    
-    //点击事件
-    - (void)valueChange:(UISegmentedControl *)segment
+	<string>UISegmentedControl * segment = [[UISegmentedControl alloc]initWithItems:&lt;#@[@"第一个",@"第二个"....]#&gt;] ;
+[segment addTarget:self action:@selector(valueChange:) forControlEvents:UIControlEventValueChanged];
+segment.frame = CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
+//改变选中状态
+segment.momentary = YES ;
+[&lt;#someView#&gt; addSubview:segment];
+
+
+
+//点击事件
+- (void)valueChange:(UISegmentedControl *)segment
+{
+    if (segment.selectedSegmentIndex == 0 &amp;&amp; segment.numberOfSegments &gt;3)
     {
-        if (segment.selectedSegmentIndex == 0 &amp;&amp; segment.numberOfSegments &gt;3)
-        {
-            NSLog(@"删除") ;
-            //删除最后一个
-            [segment removeSegmentAtIndex:segment.numberOfSegments-1 animated:YES] ;
-        }
-        else if (segment.selectedSegmentIndex == 1)
-        {
-            NSLog(@"图片") ;
-        }
-        else
-        {
-            //添加到第4个位置
-            [segment insertSegmentWithTitle:@"标题" atIndex:3 animated:YES] ;
-            NSLog(@"添加") ;
-        }
+        NSLog(@"删除") ;
+        //删除最后一个
+        [segment removeSegmentAtIndex:segment.numberOfSegments-1 animated:YES] ;
     }
+    else if (segment.selectedSegmentIndex == 1)
+    {
+        NSLog(@"图片") ;
+    }
+    else
+    {
+        //添加到第4个位置
+        [segment insertSegmentWithTitle:@"标题" atIndex:3 animated:YES] ;
+        NSLog(@"添加") ;
+    }
+}
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>D1E528DB-F1FA-4A8A-8ABF-11391DEFE535</string>
