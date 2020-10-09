@@ -9,18 +9,18 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string> NSTimer *&lt;#timerName#&gt; = [NSTimer timerWithTimeInterval:&lt;#CGFloat_sec#&gt; target:self selector:@selector(&lt;#selector#&gt;) userInfo:nil repeats:YES];
-    /** 解决 滚动视图滚动的时候 timer暂停的问题 */
-    [[NSRunLoop currentRunLoop] addTimer:&lt;#timerName#&gt; forMode:NSRunLoopCommonModes];
-    
-    /** 移除 */
-    [&lt;#timerName#&gt; invalidate];
-    &lt;#timerName#&gt; = nil;
-    
-    /** 开启timer (可以先移除再创建timer)*/
-    if (&lt;#timerName#&gt; == nil) {
-        //重新创建
-    }</string>
+	<string>NSTimer *&lt;#timerName#&gt; = [NSTimer timerWithTimeInterval:&lt;#CGFloat_sec#&gt; target:self selector:@selector(&lt;#selector#&gt;) userInfo:nil repeats:YES];
+/** 解决 滚动视图滚动的时候 timer暂停的问题 */
+[[NSRunLoop currentRunLoop] addTimer:&lt;#timerName#&gt; forMode:NSRunLoopCommonModes];
+
+/** 移除 */
+[&lt;#timerName#&gt; invalidate];
+&lt;#timerName#&gt; = nil;
+
+/** 开启timer (可以先移除再创建timer)*/
+if (&lt;#timerName#&gt; == nil) {
+    //重新创建
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0D545B7E-FA77-4F60-A01A-C5DC03368099</string>
 	<key>IDECodeSnippetLanguage</key>
